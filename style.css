@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #2D3945;
+}
+
+.logo {
+  width: 80px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+main {
+  min-height: calc(100vh - 60px);
+  background-color: #1D2D3B;
+}
+
+main .container {
+  width: 75%;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% / 5 - 20px);
+  padding: 10px 20px;
+  background-color: #2D3945;
+  margin: 10px;
+}
+
+.album-img img {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.album-info {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+
+.author {
+  font-size: 24px;
+}
+
+.year {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.author, .year {
+  color: #756E6A;
+}
